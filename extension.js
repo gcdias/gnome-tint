@@ -1,7 +1,7 @@
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
-import Main from 'resource:///org/gnome/shell/ui/main.js';
+import St from 'gi://St';
 
 export default class TintedShellExtension extends Extension {
     enable() {
@@ -33,7 +33,7 @@ export default class TintedShellExtension extends Extension {
             return;
         }
 
-        const [success, contents] = this.get_file('stylesheet.css').load_contents(null);
+        const [success, contents] = this.dir.get_child('stylesheet.css').load_contents(null);
         if (!success)
             throw new Error('Tint my Shell: could not read stylesheet.css');
 
@@ -44,18 +44,18 @@ export default class TintedShellExtension extends Extension {
         this._customStylesheetPath = GLib.build_filenamev([cacheDirectory, 'custom-accent.css']);
         GLib.file_set_contents(this._customStylesheetPath, stylesheet);
         this._customStylesheet = Gio.File.new_for_path(this._customStylesheetPath);
-        this._theme = Main.themeManager.getTheme();
-        this._theme.load_stylesheet(this._customStylesheet);
+        const theme = St.ThemeContext.get_for_stage(global.stage).get_theme();
+        theme.load_stylesheet(this._customStylesheet);
     }
 
     _unloadCustomStylesheet() {
         if (!this._customStylesheet)
             return;
 
-        this._theme.unload_stylesheet(this._customStylesheet);
+        const theme = St.ThemeContext.get_for_stage(global.stage).get_theme();
+        theme.unload_stylesheet(this._customStylesheet);
         GLib.unlink(this._customStylesheetPath);
         this._customStylesheet = null;
         this._customStylesheetPath = null;
-        this._theme = null;
     }
 }
