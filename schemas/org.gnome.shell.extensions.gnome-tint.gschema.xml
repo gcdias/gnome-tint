@@ -1,0 +1,14 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.tinted-shell" path="/org/gnome/shell/extensions/tinted-shell/">
+    <key name="use-custom-accent-color" type="b">
+      <default>false</default>
+      <summary>Use a custom accent color</summary>
+      <description>Replace the system accent color with a custom color in the extension stylesheet.</description>
+    </key>
+    <key name="custom-accent-color" type="s">
+      <default>'#3584e4'</default>
+      <summary>Custom accent color</summary>
+      <description>The custom accent color as a hexadecimal RGB value.</description>
+    </key>
+  </schema>
+</schemalist>
