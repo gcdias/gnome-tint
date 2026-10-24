@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: 34974060+Wartybix@users.noreply.github.com\n"
+"POT-Creation-Date: 2025-02-07 18:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:476
+msgid "Force Refresh"
+msgstr "Forçar Atualização"
+
+#: extension.js:481
+msgid "Preferences"
+msgstr "Preferências"
+
+#: extension.js:505
+msgid "Background format not supported"
+msgstr "Formato do fundo não suportado"
+
+#: extension.js:506
+msgid "Auto Accent Colour will not run on this background"
+msgstr "Auto Accent Colour não funcionará com este fundo"
+
+#: prefs.js:25
+msgid "Settings"
+msgstr "Definições"
+
+#: prefs.js:31
+msgid "Appearance"
+msgstr "Aparência"
+
+#: prefs.js:36
+msgid "Hide Indicator"
+msgstr "Ocultar Indicador"
+
+#: prefs.js:41
+msgid "Colour Palette"
+msgstr "Paleta de Cores"
+
+#: prefs.js:43
+msgid ""
+"Choose the type of background colour to base the shell accent colour from"
+msgstr ""
+"Escolha o tipo de cor de fundo a partir do qual a cor de destaque da shell "
+"será baseada"
+
+#: prefs.js:52
+msgid "Dominant"
+msgstr "Dominante"
+
+#: prefs.js:53
+msgid "Use the most frequent colour from the background"
+msgstr "Usar a cor mais frequente do fundo"
+
+#: prefs.js:64
+msgid "Highlight"
+msgstr "Realce"
+
+#: prefs.js:66
+msgid ""
+"Use a contrasting yet complimentary colour from the background. This may "
+"sometimes be the same as the dominant colour."
+msgstr ""
+"Usar uma cor contrastante, mas complementar, do fundo. Por vezes, pode "
+"ser igual à cor dominante."
+
+#: prefs.js:100
+msgid "Debug"
+msgstr "Depuração"
+
+#: prefs.js:106
+msgid "Palette Cache"
+msgstr "Cache da Paleta"
+
+#: prefs.js:108
+msgid ""
+"The colour palette of each background applied is cached to increase "
+"performance"
+msgstr ""
+"A paleta de cores de cada fundo aplicado é guardada em cache para aumentar "
+"o desempenho"
+
+#: prefs.js:118
+msgid "View"
+msgstr "Ver"
+
+#: prefs.js:128
+msgid "Clear"
+msgstr "Limpar"
+
+#: prefs.js:132
+msgid "Files in Cache"
+msgstr "Ficheiros em Cache"
+
+#: prefs.js:143
+msgid "Disable Cache"
+msgstr "Desativar Cache"
+
+#: prefs.js:145
+msgid ""
+"Always parse colours from the background, even if the palette for a given "
+"background is in the cache. Do not cache computed palettes."
+msgstr ""
+"Analisa sempre as cores do fundo, mesmo que a palete desse fundo esteja "
+"em cache. Não guardar em cache as paletes calculadas."
+
+#: prefs.js:152
+msgid "Developer Tools"
+msgstr "Ferramentas de Desenvolvimento"
+
+#: prefs.js:157
+msgid "Debug Logging"
+msgstr "Registo de Depuração"
+
+#: prefs.js:158
+msgid "Print debug messages to the system journal"
+msgstr "Imprimir mensagens de depuração no diário do sistema"
+
+#: prefs.js:203
+msgid "About"
+msgstr "Acerca de"
+
+#: prefs.js:212
+msgid "Auto Accent Colour"
+msgstr "Auto Accent Colour"
+
+#: prefs.js:218
+#, javascript-format
+msgid "Created by %s and contributors"
+msgstr "Criado por %s e colaboradores"
+
+#: prefs.js:225
+#, javascript-format
+msgid "Version %d"
+msgstr "Versão %d"
+
+#: prefs.js:232
+msgid "Special Thanks"
+msgstr "Agradecimentos Especiais"
+
+#: prefs.js:238
+msgid ""
+"For creating the ColorThief JavaScript module, used for extracting colours "
+"from the background image"
+msgstr ""
+"Por criar o módulo JavaScript ColorThief, usado para extrair cores da "
+"imagem de fundo"
+
+#: prefs.js:244
+msgid ""
+"For creating the Quantize JavaScript module, used by ColorThief for colour "
+"quantization"
+msgstr ""
+"Por criar o módulo JavaScript Quantize, usado pelo ColorThief para "
+"quantização de cores"
+
+#: prefs.js:258
+msgid "Project Repository"
+msgstr "Repositório do Projeto"
+
+#: prefs.js:274
+msgid "Submit an Issue"
+msgstr "Enviar um Problema"
+
+#: prefs.js:290
+msgid "Contributors"
+msgstr "Colaboradores"
+
+#: prefs.js:302
+msgid "Licenses"
+msgstr "Licenças"
+
+#: prefs.js:316
+msgid "Auto Accent Colour Extension"
+msgstr "Extensão Auto Accent Colour"
+
+#: prefs.js:317
+msgid "GNU General Public License v3.0"
+msgstr "Licença Pública Geral GNU v3.0"
+
+#: prefs.js:331
+msgid "ColorThief Module"
+msgstr "Módulo ColorThief"
+
+#: prefs.js:332 prefs.js:347
+msgid "MIT License"
+msgstr "Licença MIT"
+
+#: prefs.js:346
+msgid "Quantize Module"
+msgstr "Módulo Quantize"
+
+#: prefs.js:358
+msgid "Be kind to your local pigeons!"
+msgstr "Sê gentil com os teus pombos locais!"
