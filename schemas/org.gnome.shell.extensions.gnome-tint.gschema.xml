@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.gnome.shell.extensions.tinted-shell" path="/org/gnome/shell/extensions/tinted-shell/">
+  <schema id="org.gnome.shell.extensions.gnome-tint" path="/org/gnome/shell/extensions/gnome-tint/">
     <key name="use-custom-accent-color" type="b">
       <default>false</default>
       <summary>Use a custom accent color</summary>
